@@ -57,6 +57,7 @@ class Items:
                 )
 
     def apply_discount(self):
+        # apply discount
         self.price = self.price * self.pay_rate
         return self.price
 
